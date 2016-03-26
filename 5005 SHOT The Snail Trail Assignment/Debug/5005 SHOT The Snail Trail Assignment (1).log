@@ -1,0 +1,8 @@
+﻿Build started 31/01/2015 02:33:13.
+     1>Project "C:\Users\Chris\Google Drive\University\Year 2\Software-Hardware Optimisation Techniques (SHOT)\Semester 1\Assignment 1 - Snail Trail Game\Version 1 -\5005 SHOT The Snail Trail Assignment\5005 SHOT The Snail Trail Assignment.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(308,5): error MSB3491: Could not write lines to file "Debug\5005 SHO.B2BD4CEB.tlog\5005 SHOT The Snail Trail Assignment.lastbuildstate". The specified path, file name, or both are too long. The fully qualified file name must be less than 260 characters, and the directory name must be less than 248 characters.
+     1>Done Building Project "C:\Users\Chris\Google Drive\University\Year 2\Software-Hardware Optimisation Techniques (SHOT)\Semester 1\Assignment 1 - Snail Trail Game\Version 1 -\5005 SHOT The Snail Trail Assignment\5005 SHOT The Snail Trail Assignment.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.01

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5005 SHOT The Snail Trail Assignment", "5005 SHOT The Snail Trail Assignment\5005 SHOT The Snail Trail Assignment.vcxproj", "{B2BD4CEB-74E6-4A3A-9885-5B106E00B5C3}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://chrisbinding.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = 5005\u0020SHOT\u0020The\u0020Snail\u0020Trail\u0020Assignment\\5005\u0020SHOT\u0020The\u0020Snail\u0020Trail\u0020Assignment.vcxproj
+		SccProjectName1 = 5005\u0020SHOT\u0020The\u0020Snail\u0020Trail\u0020Assignment
+		SccLocalPath1 = 5005\u0020SHOT\u0020The\u0020Snail\u0020Trail\u0020Assignment
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2BD4CEB-74E6-4A3A-9885-5B106E00B5C3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B2BD4CEB-74E6-4A3A-9885-5B106E00B5C3}.Debug|Win32.Build.0 = Debug|Win32
+		{B2BD4CEB-74E6-4A3A-9885-5B106E00B5C3}.Release|Win32.ActiveCfg = Release|Win32
+		{B2BD4CEB-74E6-4A3A-9885-5B106E00B5C3}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+EndGlobal

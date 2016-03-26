@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<VSPerformanceSession Version="1.00">
+  <Options>
+    <Solution>5005 SHOT The Snail Trail Assignment.sln</Solution>
+    <CollectionMethod>Instrumentation</CollectionMethod>
+    <AllocationMethod>None</AllocationMethod>
+    <AddReport>true</AddReport>
+    <ResourceBasedAnalysisSelected>true</ResourceBasedAnalysisSelected>
+    <UniqueReport>Timestamp</UniqueReport>
+    <SamplingMethod>Cycles</SamplingMethod>
+    <CycleCount>10000000</CycleCount>
+    <PageFaultCount>10</PageFaultCount>
+    <SysCallCount>10</SysCallCount>
+    <SamplingCounter Name="" ReloadValue="00000000000f4240" DisplayName="" />
+    <RelocateBinaries>false</RelocateBinaries>
+    <HardwareCounters EnableHWCounters="true">
+      <HardwareCounter Name="MispredictedBranches" ReloadValue="00000000000186a0" DisplayName="Mispredicted Branches" />
+      <HardwareCounter Name="L2Misses" ReloadValue="00000000000003e8" DisplayName="Last Level Cache Misses" />
+    </HardwareCounters>
+    <EtwSettings />
+    <PdhSettings>
+      <PdhCountersEnabled>false</PdhCountersEnabled>
+      <PdhCountersRate>500</PdhCountersRate>
+      <PdhCounters>
+        <PdhCounter>\Memory\Pages/sec</PdhCounter>
+        <PdhCounter>\PhysicalDisk(_Total)\Avg. Disk Queue Length</PdhCounter>
+        <PdhCounter>\Processor(_Total)\% Processor Time</PdhCounter>
+      </PdhCounters>
+    </PdhSettings>
+  </Options>
+  <ExcludeSmallFuncs>true</ExcludeSmallFuncs>
+  <InteractionProfilingEnabled>false</InteractionProfilingEnabled>
+  <JScriptProfilingEnabled>false</JScriptProfilingEnabled>
+  <PreinstrumentEvent>
+    <InstrEventExclude>false</InstrEventExclude>
+  </PreinstrumentEvent>
+  <PostinstrumentEvent>
+    <InstrEventExclude>false</InstrEventExclude>
+  </PostinstrumentEvent>
+  <Binaries>
+    <ProjBinary>
+      <Path>Release\5005 SHOT The Snail Trail Assignment.exe</Path>
+      <ArgumentTimestamp>01/01/0001 00:00:00</ArgumentTimestamp>
+      <Instrument>true</Instrument>
+      <Sample>true</Sample>
+      <ExternalWebsite>false</ExternalWebsite>
+      <InteractionProfilingEnabled>false</InteractionProfilingEnabled>
+      <IsLocalJavascript>false</IsLocalJavascript>
+      <IsWindowsStoreApp>false</IsWindowsStoreApp>
+      <IsWWA>false</IsWWA>
+      <LaunchProject>true</LaunchProject>
+      <OverrideProjectSettings>false</OverrideProjectSettings>
+      <LaunchMethod>Executable</LaunchMethod>
+      <ExecutablePath>Release\5005 SHOT The Snail Trail Assignment.exe</ExecutablePath>
+      <StartupDirectory>5005 SHOT The Snail Trail Assignment\</StartupDirectory>
+      <Arguments>
+      </Arguments>
+      <NetAppHost>IIS</NetAppHost>
+      <NetBrowser>InternetExplorer</NetBrowser>
+      <ExcludeSmallFuncs>true</ExcludeSmallFuncs>
+      <JScriptProfilingEnabled>false</JScriptProfilingEnabled>
+      <PreinstrumentEvent>
+        <InstrEventExclude>false</InstrEventExclude>
+      </PreinstrumentEvent>
+      <PostinstrumentEvent>
+        <InstrEventExclude>false</InstrEventExclude>
+      </PostinstrumentEvent>
+      <ProjRef>{B2BD4CEB-74E6-4A3A-9885-5B106E00B5C3}|5005 SHOT The Snail Trail Assignment\5005 SHOT The Snail Trail Assignment.vcxproj</ProjRef>
+      <ProjPath>5005 SHOT The Snail Trail Assignment\5005 SHOT The Snail Trail Assignment.vcxproj</ProjPath>
+      <ProjName>5005 SHOT The Snail Trail Assignment</ProjName>
+    </ProjBinary>
+  </Binaries>
+  <Reports>
+    <Report>
+      <Path>5005 SHOT The Snail Trail Assignment150201.vspx</Path>
+    </Report>
+    <Report>
+      <Path>5005 SHOT The Snail Trail Assignment150201.vsp</Path>
+    </Report>
+    <Report>
+      <Path>5005 SHOT The Snail Trail Assignment150201(1).vsp</Path>
+    </Report>
+    <Report>
+      <Path>5005 SHOT The Snail Trail Assignment150201(2).vsp</Path>
+    </Report>
+  </Reports>
+  <Launches>
+    <ProjBinary>
+      <Path>:PB:{B2BD4CEB-74E6-4A3A-9885-5B106E00B5C3}|5005 SHOT The Snail Trail Assignment\5005 SHOT The Snail Trail Assignment.vcxproj</Path>
+    </ProjBinary>
+  </Launches>
+</VSPerformanceSession>
